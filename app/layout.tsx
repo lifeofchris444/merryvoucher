@@ -9,11 +9,11 @@ const inter = Inter({
   variable: "--font-inter",
 })
 
-const SITE_URL = "https://www.lowesdiscounts.com"
-const SITE_NAME = "Lowe's Christmas Discounts"
-const TITLE = "The Lowe's Discounts They Don't Advertise"
+const SITE_URL = "https://www.homedepotdiscounts.com"
+const SITE_NAME = "Home Depot Christmas Discounts"
+const TITLE = "The Home Depot Discounts They Don't Advertise"
 const DESCRIPTION =
-  "Discover how shoppers are unlocking hidden Lowe's discounts this Christmas — on Christmas trees, holiday lights, yard inflatables, and power tool gifts. Complete 5+ deals in five simple steps and get your discount delivered straight to your inbox."
+  "Discover how shoppers are unlocking hidden Home Depot discounts this Christmas — on trees and wreaths, holiday lights, yard inflatables, and tool gifts. Complete 5+ deals in five simple steps and get your discount delivered straight to your inbox."
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -21,15 +21,15 @@ export const metadata: Metadata = {
   description: DESCRIPTION,
   applicationName: SITE_NAME,
   keywords: [
-    "Lowe's discount code",
-    "Lowe's promo code",
-    "Lowe's Christmas sale",
-    "Lowe's holiday discounts",
-    "Lowe's Christmas trees",
-    "Lowe's holiday lights",
-    "Lowe's Christmas inflatables",
-    "Lowe's power tool gifts",
-    "Lowe's Holiday Shop",
+    "Home Depot discount code",
+    "Home Depot promo code",
+    "Home Depot Christmas sale",
+    "Home Depot holiday discounts",
+    "Home Depot Christmas trees",
+    "Home Depot holiday lights",
+    "Home Depot inflatables",
+    "Home Depot tool gifts",
+    "Home Depot Christmas decor",
   ],
   authors: [{ name: SITE_NAME, url: SITE_URL }],
   creator: SITE_NAME,
@@ -61,7 +61,7 @@ export const metadata: Metadata = {
         url: "/og-image.png",
         width: 1024,
         height: 1024,
-        alt: "Christmas flat-lay of a small artificial Christmas tree, warm white string lights, a snowman yard decoration, and a cordless drill tied with a red bow on a royal blue background",
+        alt: "Christmas flat-lay of a small decorated tree, holiday string lights, a mini inflatable snowman, a power drill tied with a red bow, and a pine wreath on a bright orange background",
       },
     ],
   },
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
 }
 
 export const viewport: Viewport = {
-  themeColor: "#004990",
+  themeColor: "#F96302",
   colorScheme: "light",
   width: "device-width",
   initialScale: 1,

@@ -1,5 +1,5 @@
-import LowesRewardLander from "@/components/lowes-lander"
+import HomeDepotRewardLander from "@/components/homedepot-lander"
 
 export default function Page() {
-  return <LowesRewardLander />
+  return <HomeDepotRewardLander />
 }
